@@ -57,7 +57,7 @@ WCH-LinkUtilityのLinux/macOS欄は「Windows版をWine等で動かせない」�
 
 | host | 主な注意点 |
 |---|---|
-| Windows | 公式driverを保ったまま使えるtoolと、interface 1をWinUSBへ差し替えるtoolがある。`wlink`のx86 buildは公式driver backendを持つ。nusb/libusb版、probe-rs、minichlinkではdriver bindingを事前に確認する必要がある |
+| Windows | 公式driverを保ったまま使えるtoolと、programming functionをWinUSBへ差し替えるtoolがある。ローカルINFのhardware IDでは`MI_00`（minichlink READMEの表記はinterface 1）。`wlink`のx86 buildは公式driver backendを持つ。nusb/libusb版、probe-rs、minichlinkではdriver bindingを事前に確認する必要がある |
 | Linux | 通常はlibusb/nusbから直接開く。非root利用にはudev ruleが必要。LinkEのCDC serialは別device nodeになる |
 | macOS | libusb/nusbからuser spaceで開けるが、Intel/Apple Siliconのarchitecture、署名・notarization、serial port名の変化が配布課題になる |
 

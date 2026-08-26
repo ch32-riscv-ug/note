@@ -6,6 +6,7 @@
 
 - [書き込み・デバッグ・bootloader経路と独自プローブの現状調査レポート](research/programming-tools-and-probes.ja.md)
 - [WCH-LinkE経由の書き込みアプリ、OS・機能・ライセンスと理想形](research/wch-linke-host-apps.ja.md)
+- [CH32用書き込み装置・デバッグprobe、hostアプリ、USB経路とWindows driver](research/programming-probes-and-usb-paths.ja.md)
 
 ## 調査範囲
 
